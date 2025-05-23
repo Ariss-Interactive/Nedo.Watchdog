@@ -1,0 +1,14 @@
+# Specifies the jar to launch.
+startJar: server.jar
+# The URL/path/whatever to check for updates on.
+updateUrl: 'https://example.com'
+java: 
+  # The path to a java environment.
+  # Leave as 'default' to use the
+  # version in the system's PATH.
+  home: "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.15.6-hotspot"
+  # Specify your java arguments here.
+  args:
+    - '-version'
+    # - '-Xms 256m'
+    # - '-Xmx 2048m'
